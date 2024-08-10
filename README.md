@@ -20,7 +20,7 @@ and the Flutter guide for
 </h4>
 
 <p align="center">
-  <a href="https://pub.dev/packages/dropdown_search">
+  <a href="https://pub.dev/packages/timezone_dropdown_plus">
     <img src="https://img.shields.io/badge/build-passing-brightgreen" alt="Build">
   </a>
   <a href="https://pub.dev/packages/timezone_dropdown_plus"><img src="https://img.shields.io/badge/version-1.0.0-blue"></a>
