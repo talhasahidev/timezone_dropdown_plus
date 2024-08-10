@@ -16,7 +16,7 @@ and the Flutter guide for
 </h1>
 
 <h4 align="center">
-  <a href="https://flutter.io" target="_blank">Flutter</a> Plugin for selecting time zone with search filter and different selection types with highly customization options.
+  <a href="https://flutter.dev" target="_blank">Flutter</a> Plugin for selecting time zone with search filter and different selection types with highly customization options.
 </h4>
 
 <p align="center">
