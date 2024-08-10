@@ -11,7 +11,7 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 <h1 align="center">
-  Time Zone Dropdown Plus ➕
+<img src="https://github.com/user-attachments/assets/4bcdac8f-d73d-4bf0-9989-3e24220725bf" height="50">  Time Zone Dropdown Plus ➕
   <br>
 </h1>
 
