@@ -1,6 +1,6 @@
 name: timezone_dropdown_plus
-description: Flutter Plugin for selecting time zone with search filter and different selection types with highly customization options.
-version: 0.0.1
+description: Flutter plugin for selecting time zone with features of search filter, current time zone and different selection types with highly customization options.
+version: 0.0.2
 homepage: https://github.com/talhasahidev/timezone_dropdown_plus.git
 
 environment:

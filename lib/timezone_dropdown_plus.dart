@@ -12,7 +12,8 @@ import 'package:flutter_native_timezone_updated_gradle/flutter_native_timezone.d
 typedef TimezoneSelectedFunction = void Function(String timeZone);
 
 class TimezoneDropdown extends StatefulWidget {
-  final String hintText;
+  final String? value;
+  final String? hintText;
   final TimezoneSelectedFunction onTimezoneSelected;
   final Widget Function(BuildContext, String?)? dropdownBuilder;
   final DropdownButtonProps? dropdownButtonProps;
@@ -29,7 +30,8 @@ class TimezoneDropdown extends StatefulWidget {
 
   const TimezoneDropdown(
       {super.key,
-      required this.hintText,
+      this.value,
+      this.hintText,
       required this.onTimezoneSelected,
       this.dropdownBuilder,
       this.dropdownButtonProps,
@@ -61,7 +63,11 @@ class TimezoneDropdownState extends State<TimezoneDropdown> {
       timezones.add(element);
     }
 
-    _loadTimeZones();
+    if (widget.value != null) {
+      myTz = widget.value;
+    } else {
+      _loadTimeZones();
+    }
   }
 
   void _loadTimeZones() async {

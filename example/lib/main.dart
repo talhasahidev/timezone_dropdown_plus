@@ -36,14 +36,19 @@ class _MyHomePageState extends State<MyHomePage> {
         body: Padding(
             padding: const EdgeInsets.all(20),
             child: Column(children: [
-              TimezoneDropdown(
-                  hintText: 'Select Timezone',
-                  onTimezoneSelected: (v) {
-                    debugPrint(v);
-                  },
-                  popupProps: const PopupProps.menu(showSearchBox: true),
-                  dropdownButtonProps: const DropdownButtonProps(
-                      icon: Icon(CupertinoIcons.chevron_up_chevron_down)))
+TimezoneDropdown(
+value: ' Africa/Addis_Ababa',
+hintText: 'Select Timezone',
+onTimezoneSelected: (v) {
+debugPrint(v);
+},
+popupProps: const PopupProps.menu(
+showSearchBox: true,
+searchFieldProps: TextFieldProps(
+padding: EdgeInsets.all(20),
+decoration: InputDecoration(hintText: 'Search...'))),
+dropdownButtonProps: const DropdownButtonProps(
+icon: Icon(CupertinoIcons.chevron_up_chevron_down)))
             ])));
   }
 }
